@@ -1,4 +1,4 @@
-loltestPython Client For Armada
+Python Client For Armada
 
 ## Overview
 
