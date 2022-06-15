@@ -54,6 +54,8 @@ jobs:
       - name: Run tox format environment
         run: poetry run tox -e format
         working-directory: client/python
+      - name: Verify docs updated if needed
+        run: tox -e docs-check
       - name: Run tox python 3.9 unit tests
         run: poetry run tox -e py39
         working-directory: client/python
